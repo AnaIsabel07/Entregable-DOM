@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <title>To do List</title>
+</head>
+<body>
+
+    <img class="logo" src="Imagenes/portapapeles.png" alt="Logo">
+
+    <h1>To do List</h1>
+
+    <form action="#" id="userInput">
+        <input type="text" placeholder="¿Qué tareas quieres realizar?" autofocus>
+        <input type="submit" value="+" id="add">
+    </form>
+
+    <div id="list" class="list-container">
+        <!-- Sección de lista de tareas -->
+    </div>
+
+    <div id="stats">
+        <!-- Sección de estadísticas -->
+    </div>
+
+    <script src="Scripts/Main.js"></script>
+    <script src="Scripts/AddTask.js"></script>
+    <script src="Scripts/PendingTasks.js"></script>
+    <script src="Scripts/CompletedTasks.js"></script>
+</body>
+</html>
